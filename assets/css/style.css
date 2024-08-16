@@ -1,0 +1,75 @@
+
+
+nav {
+    background-color: #be7e35ec;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.section {
+    height: 100vh;
+    padding: 60px 50px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    
+}
+
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.images {
+    margin-bottom: 80px;
+
+}
+
+p {
+font-size: 40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+        
+#aboutme { background-color: #cda482c8; }
+#projects { background-color: #b17f5a54; }
+#contact { background-color: #f0964cd2; border-width: 100px; height: min-content;}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
